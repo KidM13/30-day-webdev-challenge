@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+.btn{
+    font-size: 24px;
+    text-decoration: none;
+    /*border: 2px solid red;*/
+    padding: 15px 30px;
+    background: #ff5722;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s ease,box-shadow 0.3s ease;
+}
+.btn:hover{
+    background: #ff8a50;
+    box-shadow: 0 0 15px #ff5722;
+}

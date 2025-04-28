@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .accordion {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .item {
+    margin-bottom: 10px;
+  }
+  
+  .question {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .answer {
+    padding: 15px;
+    background: #ecf0f1;
+    margin-top: 5px;
+    border-radius: 4px;
+    display: none;
+  }
+  

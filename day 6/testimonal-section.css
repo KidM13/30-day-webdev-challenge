@@ -1,0 +1,53 @@
+body{
+    font-family: arial,sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.testimonal-section{
+    max-width: 500px;
+}
+.testimonal-card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0 ,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonal-card:hover{
+    transform: scale(1.05);
+}
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.customer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.customer-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+h3{
+    margin: 0;
+    font-size: 18px;
+}
+
+.position{
+    font-size: 14px;
+    color: gray;
+}
